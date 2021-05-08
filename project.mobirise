@@ -63,7 +63,7 @@
       "themeColor": "#00dcc0"
     },
     "favicon": false,
-    "mbrsiteDomain": "ryxpxpeljf",
+    "mbrsiteDomain": "49y2py4xv8",
     "canonical-url": "https://hawran.travel.pl",
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
@@ -88,7 +88,7 @@
       "text": "Kontynuując, akceptujesz nasz <a href='regulamin.html'> Regulamin </a> i <a href='pp.html'> Politykę prywatności</a>."
     },
     "pwa-switcher": true,
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "uniqCompNum": 526,
     "versionPublish": "5.3.5",
     "screenshot": "screenshot.png",
