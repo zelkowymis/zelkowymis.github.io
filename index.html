@@ -31,9 +31,9 @@
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
   <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
   <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
-  <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
   <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
   <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+  <script async custom-element="amp-recaptcha-input" src="https://cdn.ampproject.org/v0/amp-recaptcha-input-0.1.js"></script>
   <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
   
   
@@ -599,7 +599,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
             <div class="mbr-col-md-12 mbr-col-sm-12 map-content mbr-col-lg-6 md-pb">
-                <div class="google-map"><amp-iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&amp;q=Krupówki 1, Zakopane" height="400" layout="fill" sandbox="allow-scripts allow-same-origin                                 allow-popups" frameborder="0" class="mobirise-loader">
+                <div class="google-map"><amp-iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZI5F_k6S1k46ujh0SNrapM89f7mJxd30&amp;q=Krupówki 1, Zakopane" height="400" layout="fill" sandbox="allow-scripts allow-same-origin                                 allow-popups" frameborder="0" class="mobirise-loader">
                     <div placeholder="" class="placeholder">
                                 <div class="mobirise-spinner">
                                     <em></em>
@@ -614,40 +614,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 form-content">
 
                 <div class="form-box" data-form-type="formoid">
-                    <form class="mbr-form" method="post" target="_top" action-xhr="https://formoid.net/api/amp-form/push" data-form-title="Formularz kontaktowy" id="myFormcontacts4ab" on="submit:myFormcontacts4ab.clear;submit-success:AMP.setState({myStatecontacts4ab:{formdata01contacts4ab:{stateformdata01contacts4ab: '', valueformdata01contacts4ab: ''}, formdata11contacts4ab:{stateformdata11contacts4ab: '', valueformdata11contacts4ab: ''}, formdata21contacts4ab:{stateformdata21contacts4ab: '', valueformdata21contacts4ab: ''}, formdata31contacts4ab:{stateformdata31contacts4ab: '', valueformdata31contacts4ab: ''}, gdprcontacts4ab:{stategdprcontacts4ab: '', valuegdprcontacts4ab: ''}}});submit-error:AMP.setState({myStatecontacts4ab:{formdata01contacts4ab:{stateformdata01contacts4ab: myStatecontacts4ab.formdata01contacts4ab.valueformdata01contacts4ab}, formdata11contacts4ab:{stateformdata11contacts4ab: myStatecontacts4ab.formdata11contacts4ab.valueformdata11contacts4ab}, formdata21contacts4ab:{stateformdata21contacts4ab: myStatecontacts4ab.formdata21contacts4ab.valueformdata21contacts4ab}, formdata31contacts4ab:{stateformdata31contacts4ab: myStatecontacts4ab.formdata31contacts4ab.valueformdata31contacts4ab}, gdprcontacts4ab:{stategdprcontacts4ab: myStatecontacts4ab.gdprcontacts4ab.valuegdprcontacts4ab}}})"><amp-state id="myStatecontacts4ab"><script type="application/json"> {"formdata01contacts4ab":{ "stateformdata01contacts4ab": "", "valueformdata01contacts4ab": ""},"formdata11contacts4ab":{ "stateformdata11contacts4ab": "", "valueformdata11contacts4ab": ""},"formdata21contacts4ab":{ "stateformdata21contacts4ab": "", "valueformdata21contacts4ab": ""},"formdata31contacts4ab":{ "stateformdata31contacts4ab": "", "valueformdata31contacts4ab": ""},"gdprcontacts4ab":{ "stategdprcontacts4ab": "", "valuegdprcontacts4ab": ""}}</script></amp-state><input type="hidden" name="email" data-form-email="true" value="FMkWdDT6JiLQTRaIRXQI6fiFjK65QIxg6nVkIjmWUunHeVwt4ao/OYYJtFYi/Ao8If6k1t5Sxiokx+GMmWVAgP2XeEuenB94NqI/bW7QL5hhwkIJtMr/0AX4w4+rpkxn.pZ0KFgSqNSe6mWgk7prUJ2bhR8tP9HeLpD//NcMAevRi6QUCKOBlGYPHII9XzevWXuIi7aM6TzKP8AxttFHpQYLC2RQwUFtc7QknW7dfdzUdDFXlz3Pwbq0MCYNupmEc">
-                        <div class="mbr-form-row">
-                            <div submit-success="" class="mbr-col-sm-12 mbr-col-md-12">
-                                <template data-form-alert="" type="amp-mustache">Dziękujemy za przesłąnie wiadomości</template>
-                            </div>
-                            <div submit-error="" class="mbr-col-sm-12 mbr-col-md-12">
-                                <template data-form-alert="" type="amp-mustache">Failed! {{error}}</template>
-                            </div>
-                        </div>
-                        <div class="mbr-form-row">
-                            <div class="field mbr-col-sm-12 mbr-col" data-for="form[data][0][1]">
-                                <input type="hidden" name="form[data][0][0]" value="Name" id="form[data][0][0]-contacts4-ab" data-form-field="">
-                                <input [value]="myStatecontacts4ab.formdata01contacts4ab.stateformdata01contacts4ab" on="change:AMP.setState({myStatecontacts4ab:{formdata01contacts4ab:{valueformdata01contacts4ab: event.value}}})" class="field-input display-4" type="text" name="form[data][0][1]" data-form-field="Name" placeholder="Nazwa" required="" id="form[data][0][1]-contacts4-ab">
-                            </div>
-                            <div class="field mbr-col-sm-12 mbr-col" data-for="form[data][1][1]">
-                                <input type="hidden" name="form[data][1][0]" value="Phone" id="form[data][1][0]-contacts4-ab" data-form-field="">
-                                <input [value]="myStatecontacts4ab.formdata11contacts4ab.stateformdata11contacts4ab" on="change:AMP.setState({myStatecontacts4ab:{formdata11contacts4ab:{valueformdata11contacts4ab: event.value}}})" class="field-input display-4" type="tel" name="form[data][1][1]" pattern="*" data-form-field="Phone" placeholder="Telefon" required="" id="form[data][1][1]-contacts4-ab">
-                            </div>
-                            <div class="field mbr-col-sm-12 mbr-col" data-for="form[data][2][1]">
-                                <input type="hidden" name="form[data][2][0]" value="Email" id="form[data][2][0]-contacts4-ab" data-form-field="">
-                                <input [value]="myStatecontacts4ab.formdata21contacts4ab.stateformdata21contacts4ab" on="change:AMP.setState({myStatecontacts4ab:{formdata21contacts4ab:{valueformdata21contacts4ab: event.value}}})" class="field-input display-4" type="email" name="form[data][2][1]" data-form-field="Email" placeholder="E-mail" required="" id="form[data][2][1]-contacts4-ab">
-                            </div>
-                            <div class="area field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12" data-for="form[data][3][1]">
-                                <input type="hidden" name="form[data][3][0]" value="Message" id="form[data][3][0]-contacts4-ab" data-form-field="">
-                                <textarea on="change:AMP.setState({myStatecontacts4ab:{formdata31contacts4ab:{valueformdata31contacts4ab: event.value}}})" [defaulttext]="myStatecontacts4ab.formdata31contacts4ab.stateformdata31contacts4ab" class="field-input display-4" name="form[data][3][1]" rows="7" data-form-field="Message" placeholder="Treść" id="form[data][3][1]-contacts4-ab"></textarea>
-                            </div>
-                            <div class="mbr-section-btn mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12 align-center"><button type="submit" class="btn btn-form btn-success display-4"><span class="fa fa-send mbr-iconfont mbr-iconfont-btn"><svg width="16" height="16" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z"></path></svg></span>WYŚLIJ</button></div>
-                        </div>
-                    <span class="gdpr-block">
+<!--Formbuilder Form-->
+<form method="post" class="mbr-form" action-xhr="https://formoid.net/api/amp-form/push" data-form-title="Formularz kontaktowy" id="myFormcontacts4ab" on="submit:myFormcontacts4ab.clear;submit-success:AMP.setState({myStatecontacts4ab:{formdata01contacts4ab:{stateformdata01contacts4ab: '', valueformdata01contacts4ab: ''}, formdata11contacts4ab:{stateformdata11contacts4ab: '', valueformdata11contacts4ab: ''}, formdata21contacts4ab:{stateformdata21contacts4ab: '', valueformdata21contacts4ab: ''}, formdata31contacts4ab:{stateformdata31contacts4ab: '', valueformdata31contacts4ab: ''}, gdprcontacts4ab:{stategdprcontacts4ab: '', valuegdprcontacts4ab: ''}}});submit-error:AMP.setState({myStatecontacts4ab:{formdata01contacts4ab:{stateformdata01contacts4ab: myStatecontacts4ab.formdata01contacts4ab.valueformdata01contacts4ab}, formdata11contacts4ab:{stateformdata11contacts4ab: myStatecontacts4ab.formdata11contacts4ab.valueformdata11contacts4ab}, formdata21contacts4ab:{stateformdata21contacts4ab: myStatecontacts4ab.formdata21contacts4ab.valueformdata21contacts4ab}, formdata31contacts4ab:{stateformdata31contacts4ab: myStatecontacts4ab.formdata31contacts4ab.valueformdata31contacts4ab}, gdprcontacts4ab:{stategdprcontacts4ab: myStatecontacts4ab.gdprcontacts4ab.valuegdprcontacts4ab}}})"><amp-state id="myStatecontacts4ab"><script type="application/json"> {"formdata01contacts4ab":{ "stateformdata01contacts4ab": "", "valueformdata01contacts4ab": ""},"formdata11contacts4ab":{ "stateformdata11contacts4ab": "", "valueformdata11contacts4ab": ""},"formdata21contacts4ab":{ "stateformdata21contacts4ab": "", "valueformdata21contacts4ab": ""},"formdata31contacts4ab":{ "stateformdata31contacts4ab": "", "valueformdata31contacts4ab": ""},"gdprcontacts4ab":{ "stategdprcontacts4ab": "", "valuegdprcontacts4ab": ""}}</script></amp-state><amp-recaptcha-input layout="nodisplay" name="recaptcha_token" data-sitekey="6LfLq8saAAAAAKTVY9c5LpMC26QW7cim9ddmWwxy" data-action="recaptcha_example"></amp-recaptcha-input><input type="hidden" name="email" data-form-email="true" value="FJH1KC9gK9oDPMte8wxId20BDQ0lKe+ximmyaAlVDR47kzfwJRB+z5uAmx9vs4g3JJofgpqFKQAe9sd82F0qtJFF2HC+fMzcgHq8N3GaXpK6CYDK3woYMOv5qsZGDbes.IbhyYvXWiFUMd9193Lh+0uriftXbRhI5Kv1rwc47a4x9gBqY9ctLtYCdDTz2P/5J6YR3oxku5Z9G3cyHQmz0LkQMDJEfbDdrl2Lhm+DKbW4HnPVQGwjwvKYnesIEFXKU">
+<div class="mbr-form-row">
+<div submit-success="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
+<template data-form-alert="" type="amp-mustache">Dziękujemy za przesłąnie wiadomości</template>
+</div>
+<div submit-error="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
+<template data-form-alert="" type="amp-mustache">Failed! {{error}}</template>
+</div>
+</div>
+<div class="dragArea mbr-form-row">
+<div data-for="form[data][0][1]" class="mbr-col-sm-12 mbr-col field">
+<input type="hidden" name="form[data][0][0]" value="Name" id="form[data][0][0]-contacts4-ab" data-form-field="">
+<input [value]="myStatecontacts4ab.formdata01contacts4ab.stateformdata01contacts4ab" on="change:AMP.setState({myStatecontacts4ab:{formdata01contacts4ab:{valueformdata01contacts4ab: event.value}}})" type="text" name="form[data][0][1]" placeholder="Nazwa" data-form-field="Name" class="field-input display-4" required="required" value="" id="form[data][0][1]-contacts4-ab">
+</div>
+<div data-for="form[data][1][1]" class="mbr-col-sm-12 mbr-col field ">
+<input type="hidden" name="form[data][1][0]" value="Phone" id="form[data][1][0]-contacts4-ab" data-form-field="">
+<input [value]="myStatecontacts4ab.formdata11contacts4ab.stateformdata11contacts4ab" on="change:AMP.setState({myStatecontacts4ab:{formdata11contacts4ab:{valueformdata11contacts4ab: event.value}}})" type="tel" name="form[data][1][1]" placeholder="Telefon" pattern="*" data-form-field="Phone" class="field-input display-4" required="required" value="" id="form[data][1][1]-contacts4-ab">
+</div>
+<div data-for="form[data][2][1]" class="mbr-col-sm-12 mbr-col field ">
+<input type="hidden" name="form[data][2][0]" value="Email" id="form[data][2][0]-contacts4-ab" data-form-field="">
+<input [value]="myStatecontacts4ab.formdata21contacts4ab.stateformdata21contacts4ab" on="change:AMP.setState({myStatecontacts4ab:{formdata21contacts4ab:{valueformdata21contacts4ab: event.value}}})" type="email" name="form[data][2][1]" placeholder="E-mail" data-form-field="Email" class="field-input display-4" required="required" value="" id="form[data][2][1]-contacts4-ab">
+</div>
+<div data-for="form[data][3][1]" class="mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12 area field ">
+<input type="hidden" name="form[data][3][0]" value="Message" id="form[data][3][0]-contacts4-ab" data-form-field="">
+<textarea on="change:AMP.setState({myStatecontacts4ab:{formdata31contacts4ab:{valueformdata31contacts4ab: event.value}}})" [defaulttext]="myStatecontacts4ab.formdata31contacts4ab.stateformdata31contacts4ab" name="form[data][3][1]" placeholder="Treść" data-form-field="Message" class="field-input display-4" required="required" id="form[data][3][1]-contacts4-ab"></textarea>
+</div>
+<div class="mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12 mbr-section-btn align-center">
+<button type="submit" class="btn btn-form btn-success display-4">&amp;lt;span class="fa fa-send mbr-iconfont mbr-iconfont-btn"&amp;gt;&amp;lt;/span&amp;gt;WYŚLIJ</button>
+</div>
+</div>
+<span class="gdpr-block">
 <label>
 <span class="textGDPR display-7" style="color: #a7a7a7"><input [checked]="myStatecontacts4ab.gdprcontacts4ab.stategdprcontacts4ab" on="change:AMP.setState({myStatecontacts4ab:{gdprcontacts4ab:{valuegdprcontacts4ab: event.checked}}})" type="checkbox" name="gdpr" id="gdpr-contacts4-ab" required="">Kontynuując, akceptujesz nasz <a style="color: #00dcc0; text-decoration: none;" href="regulamin.html"> Regulamin </a> i <a style="color: #00dcc0; text-decoration: none;" href="pp.html"> Politykę prywatności</a>.</span>
 </label>
-</span></form>
-                </div>
+</span></form><!--Formbuilder Form-->
+</div>
             </div>
         </div>
     </div>
